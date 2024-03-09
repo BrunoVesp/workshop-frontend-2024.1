@@ -4,41 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Netflix</title>
-    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="estilos/style.css">
-    
+    <link rel="shortcut icon" href="scr/icones/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="scr/estilos/style.css">
 </head>
 <body>
-    <main class="fundo">
-        <header>
-            <img src="imagens/netflix.png" alt="Logo Netflix">
-            <nav>
-                <select name="idioma" id="iidioma">
-                    <option value="portugues">Português</option>
-                    <option value="english">English</option>
-                </select>
-                <a href="#" class="botao">Entrar</a>
-            </nav>
-        </header>
-
-        <section class="titulo">
-            <h1>Filmes, séries e muito mais, sem limites</h1>
-            <h2>A partir de R$ 18,90. Cancele quando quiser.</h2>
-            <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
-            <form action="#">
-                <input type="email" name="email" class="email" id="iemail" placeholder="Email">
-                <button type="submit" class="buton">Vamos lá</button>
-            </form>
+    <div class="imagem-fundo">
+        <section class="escuro">
+            <header>
+                <img src="scr/imagens/netflix.png" alt="Logo Netflix">
+                <nav>
+                    <select name="idioma" id="iidioma">
+                        <option value="portugues">Português</option>
+                        <option value="english">English</option>
+                    </select>
+                    <a href="#" class="botao">Entrar</a>
+                </nav>
+            </header>
+            <section class="titulo">
+                <h1>Filmes, séries e muito mais, sem limites</h1>
+                <h2>A partir de R$ 18,90. Cancele quando quiser.</h2>
+                <h3>Quer assistir? Informe seu email para criar ou reiniciar sua assinatura.</h3>
+                <form action="#">
+                    <input type="email" name="email" class="email" id="iemail" placeholder="Email">
+                    <button type="submit" class="buton">Vamos lá</button>
+                </form>
+            </section>
         </section>
+    </div>
 
-        <section id="saiba">
-            <a href="">
-                <h3>A Netflix que você adora a partir de R$ 18,90!</h3>
-                <p>Assista à Netflix com alguns intervalos para anúncios e economize.</p>
-                <a href="https://www.netflix.com/signup?previousMode=welcome" target="_blank">Saiba Mais</a>
-            </a>
-        </section>
+    <hr>
 
-    </main>
+    <div class="degrade">
+
+    </div>
+    
+    <section id="conteudo">
+        <article id="saiba">
+            <h3>A Netflix que você adora a partir de R$ 18,90!</h3>
+            <p>Assista à Netflix com alguns intervalos para anúncios e economize.</p>
+            <a href="https://www.netflix.com/signup?previousMode=welcome" target="_blank">Saiba Mais</a>
+        </article>
+    </section>
+        
+    
+    
 </body>
 </html>

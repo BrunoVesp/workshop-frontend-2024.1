@@ -8,17 +8,22 @@
 }
 
 body {
+    background-color: black;
+}
+
+.escuro {
+    background-color: rgba(0, 0, 0, 0.700);
+    height: 915px;
+}
+
+.imagem-fundo {
+    height: 100vh;
     background-image: url('../imagens/fundo.jpg');
     background-repeat: no-repeat;
     background-color: black;
     background-position: center top;
     background-size: cover;
     background-attachment: fixed;
-}
-
-.fundo {
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.700);
 }
 
 header {
@@ -68,10 +73,13 @@ option {
 
 .titulo {
     color: white;
-    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*margin: auto;
     max-width: 550px;
     margin-top: 200px;
-    text-align: center;
+    text-align: center;*/
 
 }
 
@@ -107,6 +115,7 @@ form {
     padding-left: 10px;
     margin-left: 30px;
     margin-right: 7px;
+    margin-bottom: 100px;
 }
 
 .buton {
@@ -120,6 +129,7 @@ form {
     padding-right: 25px;
     font-size: 20px;
     margin-right: 30px;
+    margin-bottom: 100px;
 }
 
 .buton:hover {
@@ -127,17 +137,51 @@ form {
     transition: 0.5s;
 }
 
+hr {
+    background-color: #8a1820;
+    height: 5px;
+    border: none;
+}
+
+.degrade {
+    background-image: linear-gradient(to bottom, #121C42, black);
+    height: 50px;
+}
 
 #saiba {
     display: flex;
     justify-content: center;
-    margin: 40px;
-}
-
-#saiba > a {
+    margin: 5%;
+    margin-top: 0px;
     display: block;
     background-image: linear-gradient(to right, #651D3E, #290B2C);
     color: white;
-    padding: 30px;
+    padding: 20px;
     border-radius: 20px;
+}
+
+#saiba > a {
+    display: inline-block;
+    background-color: #7a4760;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 14px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#saiba > a:hover {
+    background-color: #693950;
+    transition: 0.5s;
+}
+
+#saiba > h3 {
+    margin: 10px;
+    font-size: 1.7rem;
+}
+
+#saiba > p {
+    margin: 10px;
+    color: #C9B8C2;
 }
