@@ -13,13 +13,12 @@ body {
     background-color: black;
     background-position: center top;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .fundo {
-    /*width: 100vw;
-    height: 100vh;*/
-    background-color: rgba(0, 0, 0, 0.650);
-    height: 800px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.700);
 }
 
 header {
@@ -40,7 +39,6 @@ select {
     text-align: center;
     border-radius: 5px;
     height: 30px;
-    width: 140px;
     font-size: 15px;
 }
 
@@ -127,4 +125,19 @@ form {
 .buton:hover {
     background-color: #C11119;
     transition: 0.5s;
+}
+
+
+#saiba {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+#saiba > a {
+    display: block;
+    background-image: linear-gradient(to right, #651D3E, #290B2C);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
 }
