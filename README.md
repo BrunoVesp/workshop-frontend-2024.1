@@ -3,7 +3,7 @@
     <p>Desafio Netflix do Workshop Frontend 2024.1 👨‍💻</p>
 </h1>
 
-<h1><a href="https://workshop-frontend-2024-1-seven.vercel.app/" target="_blank">Veja o site</a></h1>
+<h1><a href="https://workshop-frontend-2024-1-seven.vercel.app/">Veja o site</a></h1>
 
 ## 📕 Sobre
 
