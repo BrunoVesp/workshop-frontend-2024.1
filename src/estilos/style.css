@@ -144,6 +144,7 @@ h2 {
     height: auto;
     border-radius: 5px 5px 0 0;
 }
+
 .show-content {
     display: none;
     position: absolute;
@@ -156,21 +157,25 @@ h2 {
     box-sizing: border-box;
     transition: opacity 0.3s;
 }
+
 .show:hover .show-content {
     display: block;
 }
+
 .show-title {
     color: black;
     margin-top: 0;
     margin-bottom: 5px;
     font-size: 1rem;
 }
+
 .show-summary {
     margin-top: 0;
     font-size: 0.8rem;
     opacity: 0;
     transition: opacity 0.3s;
 }
+
 .show:hover .show-summary {
     opacity: 1;
 }
